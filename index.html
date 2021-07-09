@@ -9,13 +9,13 @@
     <body>
         <div class="Main-Buttons" id="Main-Buttons">
 
-            <div class="Home" id="Home" style="position:relative; top: -45px; left: -10px">
+            <div class="About" id="About" style="position:relative; top: -45px; left: -10px">
 
                 <h1>
-                <button>
+                <button style="position: relative;">
                 <font size="5" face="Times New Roman">
-                <a href="https://iigaxer.github.io/Profile/" target="_top" rel="noopener noreferrer" style="text-decoration:none; color:rgb(0, 0, 0)">
-                    Home
+                <a href="https://iigaxer.github.io/Profile/" target="_top" rel="noopener noreferrer" style="text-decoration:none">
+                    About
                 </button>
                 </a>
                 </font>
@@ -23,13 +23,13 @@
 
             </div>
 
-            <div class="About" id="About" style="position:relative; top: -104px; right: -79px;">
+            <div class="Interests" id="Interests" style="position:relative; top: -104px; right: -99px;">
 
                 <h1>
                 <button>
                 <font size="5" face="Times New Roman" target="_top">
-                <a style= "color: rgb(11, 0, 73)">
-                    About
+                <a>
+                    Interests
                 </a>
                 </button>
                 </font>
@@ -37,12 +37,12 @@
 
             </div>
 
-            <div class="Projects" id="Projects" style="position:relative; top: -163px; right: -180px;">
+            <div class="Projects" id="Projects" style="position:relative; top: -163px; right: -263px;">
 
                 <h1>
                 <button>
                 <font size="5" face="Times New Roman" target="_top">  
-                <a target="_top" rel="noopener noreferrer" style="text-decoration:none; color:rgb(0, 204, 255)">
+                <a target="_top" rel="noopener noreferrer" style="text-decoration:none">
                     Projects
                 </a>
                 </button>
@@ -51,12 +51,12 @@
 
             </div>
 
-            <div class="Options" id="Options" style="position:relative; top: -221px; right: -320px;">
+            <div class="Options" id="Options" style="position:relative; top: -221px; right: -1200px">
 
                 <h1>
                 <button>
                 <font size="5" face="Times New Roman" target="_top">
-                <a target="_top" rel="noopener noreferrer" style="text-decoration:none; color:rgb(105, 1, 1)">
+                <a target="_top" rel="noopener noreferrer" style="text-decoration:none">
                     Options
                 </a>
                 </button>
@@ -65,12 +65,12 @@
 
             </div>
 
-            <div class="Contact" id="Contact" style="position:relative; top: -279px; right: -453px;">
+            <div class="Contact" id="Contact" style="position:relative; top: -279px; right: -413px">
 
                 <h1>
                 <button>
                 <font size="5" face="Times New Roman" target="_top">
-                <a target="_top" rel="noopener noreferrer" style="text-decoration:none; color:rgb(11, 77, 0)">
+                <a target="_top" rel="noopener noreferrer" style="text-decoration:none">
                     Contact
                 </a>
                 </button>
@@ -82,22 +82,133 @@
 
         </div>
 
-        <hr style="position:relative; top: -93px;">
-        
+        <div class="Lines" id="Lines">
+
+            <div class="Line_1" id="Line_1">
+
+                <hr style="position:relative; top: -266px; width: 70px; left: -14px; color: #919191" />
+
+            </div>
+
+            <div class="Line_2" id="Line_2">
+
+                <hr style="position:relative; top: -276px; width: 107px; left: 115px; color: #919191" />
+                
+            </div>  
+            
+            <div class="Line_3" id="Line_3">
+
+                <hr style="position:relative; top: -286px; width: 102px; left: 280px; color: #919191" />
+            
+            </div>
+
+            <div class="Line_4" id="Line_4">
+
+                <hr style="position:relative; top: -296px; width: 90px; left: 426px; color: #919191" />
+            
+            </div>
+            
+            <div class="Line_5" id="Line_5">
+
+                <hr style="position:relative; top: -306px; width: 90px; left: 1213px; color: #919191" />
+            
+            </div>
+            
+
+        </div>
+
 
 <style>
+
     button {
         background-color: white;
         border: none;
     }
 
+    /* body {
+        background: linear-gradient(papayawhip, white);
+        height: 1366px;
+    } */
 
     a {
         display: block;
         width: 54px;
         height: 5px;
     }
+
+    #About a {
+        color: rgba(39, 39, 39, 0.781)
+    }
+
+    #About a:hover {
+        color: rgb(0, 0, 0)  
+    }
+
+    .About a:hover {
+        font-size: 105%;
+    }
     
+    #Interests a {
+        color: rgb(22, 0, 218)
+    }
+
+    #Interests a:hover {
+        color: rgb(11, 1, 59)
+    }
+
+    .Interests a:hover {
+        font-size: 101%;
+    }
+    
+
+    #Projects a {
+        color: rgb(0, 217, 255)
+    }
+
+    #Projects a:hover {
+        color: rgb(0, 59, 63)
+    }
+
+    .Projects a:hover {
+        font-size: 101%;
+    }
+
+    #Contact a {
+        color:rgb(21, 141, 0)
+    }
+
+    #Contact a:hover {
+        color:rgb(9, 58, 0)
+    }
+
+    .Contact a:hover {
+        font-size: 103%;
+    }
+
+    #Options a {
+        color:rgb(116, 0, 0)
+    }
+
+    #Options a:hover {
+        color:rgb(54, 0, 0)
+    }
+
+    .Options a:hover {
+        font-size: 101%;
+    }
+
+    /* * { 
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    } */
+
+    body {
+        min-height: 1366vh;
+        max-width: 100px;
+    }
+    
+
     a {
     position: absolute;
     /* top: 50%; 
@@ -108,9 +219,9 @@
     font-size: 0.9em;
     font-weight: 700;
     color: #f5f5f5;
-    text-shadow: 1px 1px 1px #919191,
+     text-shadow: 1px 1px 1px #919191,
         1px 2px 1px #919191,
-        1px 3px 1px #919191,
+        1px 3px 1px #919191, 
         1px 4px 1px #919191,
         1px 5px 1px #919191,
         1px 6px 1px #919191,
@@ -128,38 +239,67 @@
         animation: ani2 0.5s ease-out forwards;
     }
 
+    .Lines{
+        animation: ani2 0.5s ease-out forwards;
+    }
+
     .Main-Buttons h1{
         opacity: 0;
     }
 
-    .Home h1 {
-        animation: ani2 0.75s ease-out 0.30s forwards;
+    .Lines hr {
+        opacity: 0;
     }
 
     .About h1 {
-        animation: ani2 0.75s ease-out 0.70s forwards;
+        animation: ani2 0.75s ease-out 0.1s forwards;
+    }
+
+    .Line_1 hr {
+        animation: ani2 0.75s ease-out 0.1s forwards;
+    }
+
+    .Interests h1 {
+        animation: ani2 0.75s ease-out 0.5s forwards;
+    }
+
+    .Line_2 hr {
+        animation: ani2 0.75s ease-out 0.5s forwards;
     }
 
     .Projects h1 {
-        animation: ani2 0.75s ease-out 1.1s forwards;
+        animation: ani2 0.75s ease-out 0.9s forwards;
     }
 
-    .Options h1 {
-        animation: ani2 0.75s ease-out 1.5s forwards;
+    .Line_3 hr {
+        animation: ani2 0.75s ease-out 0.9s forwards;
     }
 
     .Contact h1 {
-        animation: ani2 0.75s ease-out 1.9s forwards;
+        animation: ani2 0.75s ease-out 1.3s forwards;
+    }
+
+    .Line_4 hr {
+        animation: ani2 0.75s ease-out 1.3s forwards;
+    }
+
+    .Options h1 {
+        animation: ani2 0.75s ease-out 1.7s forwards;
+    }
+
+    .Line_5 hr {
+        animation: ani2 0.75s ease-out 1.7s forwards;
     }
 
     @keyframes ani2 {
         100% { 
             opacity: 1;
         }
-    }  
+    }
+
+    
 
 
 </style>
 
 </html>
-
